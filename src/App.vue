@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NintendoApp />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NintendoApp from './components/NintendoApp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NintendoApp
   }
 }
 </script>
