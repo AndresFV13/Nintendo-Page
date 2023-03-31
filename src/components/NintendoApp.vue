@@ -1,9 +1,15 @@
 <template>
-  <h1> Nintendo App Copy </h1>
+  <Navigation />
 </template>
 
 <script>
+import Navigation from '@/Navbar/Navigation.vue'
+
 export default {
+  components: {
+    Navigation
+
+  },
     
 }
 </script>
